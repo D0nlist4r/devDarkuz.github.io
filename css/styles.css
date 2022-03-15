@@ -10,7 +10,6 @@ main {
     padding: 0px;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: beige;
 }
 footer {
     padding: 0px;
@@ -22,4 +21,7 @@ h1 {
 }
 .lista {
 list-style-type:georgian;
+}
+.contenido-2 {
+    border:solid 1px black;
 }
