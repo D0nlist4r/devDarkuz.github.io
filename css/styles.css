@@ -1,0 +1,25 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+.main-nav {
+    padding: 0px;
+    text-align: center;
+}
+main {
+    padding: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: beige;
+}
+footer {
+    padding: 0px;
+    margin-left: 5%;
+}
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+.lista {
+list-style-type:georgian;
+}
