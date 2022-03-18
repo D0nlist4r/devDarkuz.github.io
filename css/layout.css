@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    background-color: azure;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: hsl(160, 100%, 75%);
+    width: 100vw;
+    height: 10vh;
+}
+nav {
+    display: block;
+    position: absolute;
+    right: 0;
+}
+main {
+    background-color: aqua;
+    display: inline-block;
+    width: 80vw;
+    height: 80vh;
+    position: absolute;
+    left: 20%;
+}
+aside {
+    background-color: brown;
+    display: block;
+    width: 20vw;
+    height: 80vh;
+}
+footer {
+    background-color: burlywood;
+    display: block;
+    width: 100vW;
+    height: 10vh;
+}
+.logo {
+    display: inline-block;
+    margin: 0 0 0 30px;
+}
+  
+.logo img {
+    height: 40px;
+}
