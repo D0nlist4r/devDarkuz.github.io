@@ -2,53 +2,114 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-}
-html {
     font-size: 62.5%;
-    background-color: azure;
 }
 body {
+    font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Signika Negative', sans-serif;
     width: 100vw;
     height: 100vh;
+    background-color: whitesmoke;
+    color: white;
 }
-
 header {
-    background-color: hsl(160, 100%, 75%);
+    background-color: #0B2B40;
     width: 100vw;
-    height: 10vh;
+    height: auto;
 }
 nav {
-    display: block;
+    font-size: 5.9rem;
     position: absolute;
-    right: 0;
+    right: 0px;
+    bottom: 92%;
 }
 main {
-    background-color: aqua;
     display: inline-block;
     width: 80vw;
     height: 80vh;
     position: absolute;
-    left: 20%;
+    padding-left: 20px;
 }
-aside {
-    background-color: brown;
-    display: block;
-    width: 20vw;
-    height: 80vh;
-}
+
 footer {
-    background-color: burlywood;
+    bottom: 0px;
+    position: absolute;
     display: block;
     width: 100vW;
-    height: 10vh;
+    height: auto;
+    background-color: #0B2B40;
+    padding-left: 20px;
 }
 .logo {
     display: inline-block;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 20px;
 }
-  
 .logo img {
     height: 40px;
 }
+.siderbar__container {
+    border: 2px black solid;
+    display: block;
+    height: 80px;
+    width: 15rem;
+    margin: 0 0 35px 15px;
+    border-radius: 5px;
+    background-color: #0B2B40;
+    opacity: 0.7;
+}
+p {
+    color: gray;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+h1 {
+    color: #0B2B40;
+    font-size: 3rem;
+    padding-left: 10px;
+}
+h2 {
+    color: #0aa540;
+    font-size: 1.9rem;
+    padding-left: 10px;
+}
+h3 {
+    color: #0B2B40;
+    font-size: 1.9rem;
+    padding-left: 10px;
+}
+.boton-wpp {
+    width: 40px;
+    padding-left: 15px;
+}
+.contacto {
+    font-size: medium;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  a:link {
+    color: #265301;
+  }
+  
+  a:visited {
+    color: #437A16;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;
+    background: #CDFEAA;
+  }
+  
+  a:active {
+    background: #265301;
+    color: #CDFEAA;
+  }
