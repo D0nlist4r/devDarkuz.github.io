@@ -15,11 +15,24 @@ html{
     font-family: 'Quicksand', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+.icon-nav{
+    display: none;
+    cursor: pointer;
+    padding: 10px 0 10px 20px;
+    width: 20%;
+}
+.icon-nav img{
+    width: 40px;
+    height: 40px;
+}
 nav{
     width: 100%;
     background-color: #131112;
     border-bottom: gray 2px solid;
 }
+/* .menu-left{
+
+} */
 .menu-left ul{
     display: flex;
     justify-content: center;
@@ -42,4 +55,13 @@ nav{
 }
 .mainDescription{
     background-color: #DADFE3;
+}
+
+@media (max-width:640px){
+    .icon-nav{
+        display: flex;
+    }
+    .menu-left{
+        display: none;
+    }
 }
