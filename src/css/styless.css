@@ -15,6 +15,11 @@ html{
     font-family: 'Quicksand', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+.Container{
+    background-color: #C2C2C2;
+    width: 100%;
+    height: 100vh;
+}
 .icon-nav{
     display: none;
     cursor: pointer;
@@ -30,9 +35,6 @@ nav{
     background-color: #131112;
     border-bottom: gray 2px solid;
 }
-/* .menu-left{
-
-} */
 .menu-left ul{
     display: flex;
     justify-content: center;
@@ -53,8 +55,35 @@ nav{
     border: #232830 solid 2px;
     padding: 5px;
 }
+/* CSS de la configurancion del menu mobile */
+
+.menu-mobile{
+    background-color: #131112;
+    display: flex;
+    justify-content: flex-start;
+    border: #232830 solid 2px;
+}
+.menu-mobile ul{
+    list-style: none;
+}
+.menu-mobile ul li a{
+    color: var(--white);
+    text-decoration: none;
+    font-size: var(--sm);
+}
+.menu-mobile ul li{
+    margin: 10px;
+    padding: 2px 0 2px 0;
+}
+.menu-mobile ul li a:hover{
+    border: 1px var(--Dark) solid;
+}
 .mainDescription{
+    display: flex;
     background-color: #DADFE3;
+}
+.inactive{
+    display: none;
 }
 
 @media (max-width:640px){
@@ -62,6 +91,11 @@ nav{
         display: flex;
     }
     .menu-left{
+        display: none;
+    }
+}
+@media (min-width:640px){
+    .menu-mobile{
         display: none;
     }
 }
